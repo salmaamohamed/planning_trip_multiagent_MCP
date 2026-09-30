@@ -1,0 +1,8 @@
+{
+    "destination": "Paris",
+    "travel_date": "2026-10-15",
+    "duration_days": 5,
+    "origin": "Cairo",
+    "budget": 1500,
+    "currency": "USD"
+}

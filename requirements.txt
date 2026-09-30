@@ -1,0 +1,24 @@
+# Orchestration
+langgraph>=1.0,<2
+
+# Structured data / config
+pydantic>=2.7,<3
+pydantic-settings>=2.3,<3
+python-dotenv>=1.0
+
+# LLM (any OpenAI-compatible endpoint: OpenAI, Groq, Ollama, ...)
+openai>=1.40
+
+# MCP + Excel
+mcp>=1.9,<2
+openpyxl>=3.1
+
+# Optional live web search provider for flights/hotels/activities
+httpx>=0.27
+
+# UI + email
+streamlit>=1.35
+markdown>=3.5
+
+# Tests
+pytest>=8

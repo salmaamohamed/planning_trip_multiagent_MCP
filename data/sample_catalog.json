@@ -1,0 +1,72 @@
+{
+  "_notice": "DEMO DATA. Illustrative schedules and prices for offline development and tests. Not live availability.",
+  "flights": [
+    {"origin": "Cairo", "destination": "Paris", "airline": "EgyptAir", "flight_number": "MS799", "departure_time": "09:45", "arrival_time": "13:55", "duration": "5h 10m", "price": 340, "currency": "USD"},
+    {"origin": "Cairo", "destination": "Paris", "airline": "Air France", "flight_number": "AF503", "departure_time": "15:20", "arrival_time": "19:35", "duration": "5h 15m", "price": 395, "currency": "USD"},
+    {"origin": "Cairo", "destination": "Paris", "airline": "Turkish Airlines", "flight_number": "TK691/TK1827", "departure_time": "04:10", "arrival_time": "12:40", "duration": "9h 30m (1 stop IST)", "price": 265, "currency": "USD"},
+    {"origin": "Paris", "destination": "Cairo", "airline": "EgyptAir", "flight_number": "MS800", "departure_time": "15:05", "arrival_time": "21:05", "duration": "5h 00m", "price": 330, "currency": "USD"},
+    {"origin": "Paris", "destination": "Cairo", "airline": "Air France", "flight_number": "AF504", "departure_time": "10:25", "arrival_time": "16:30", "duration": "5h 05m", "price": 380, "currency": "USD"},
+    {"origin": "Paris", "destination": "Cairo", "airline": "Turkish Airlines", "flight_number": "TK1822/TK690", "departure_time": "07:15", "arrival_time": "17:00", "duration": "8h 45m (1 stop IST)", "price": 255, "currency": "USD"},
+
+    {"origin": "London", "destination": "Paris", "airline": "British Airways", "flight_number": "BA304", "departure_time": "08:20", "arrival_time": "10:40", "duration": "1h 20m", "price": 145, "currency": "USD"},
+    {"origin": "London", "destination": "Paris", "airline": "easyJet", "flight_number": "U28011", "departure_time": "06:55", "arrival_time": "09:10", "duration": "1h 15m", "price": 78, "currency": "USD"},
+    {"origin": "Paris", "destination": "London", "airline": "British Airways", "flight_number": "BA309", "departure_time": "18:05", "arrival_time": "18:25", "duration": "1h 20m", "price": 150, "currency": "USD"},
+    {"origin": "Paris", "destination": "London", "airline": "easyJet", "flight_number": "U28014", "departure_time": "20:40", "arrival_time": "20:55", "duration": "1h 15m", "price": 82, "currency": "USD"},
+
+    {"origin": "Cairo", "destination": "Rome", "airline": "EgyptAir", "flight_number": "MS791", "departure_time": "10:05", "arrival_time": "13:25", "duration": "3h 20m", "price": 290, "currency": "USD"},
+    {"origin": "Cairo", "destination": "Rome", "airline": "ITA Airways", "flight_number": "AZ895", "departure_time": "14:30", "arrival_time": "17:45", "duration": "3h 15m", "price": 310, "currency": "USD"},
+    {"origin": "Rome", "destination": "Cairo", "airline": "EgyptAir", "flight_number": "MS792", "departure_time": "14:40", "arrival_time": "19:10", "duration": "3h 30m", "price": 280, "currency": "USD"},
+    {"origin": "Rome", "destination": "Cairo", "airline": "ITA Airways", "flight_number": "AZ894", "departure_time": "09:10", "arrival_time": "13:30", "duration": "3h 20m", "price": 300, "currency": "USD"},
+
+    {"origin": "Cairo", "destination": "Dubai", "airline": "Emirates", "flight_number": "EK928", "departure_time": "16:15", "arrival_time": "21:50", "duration": "3h 35m", "price": 260, "currency": "USD"},
+    {"origin": "Cairo", "destination": "Dubai", "airline": "flydubai", "flight_number": "FZ924", "departure_time": "03:25", "arrival_time": "08:55", "duration": "3h 30m", "price": 185, "currency": "USD"},
+    {"origin": "Dubai", "destination": "Cairo", "airline": "Emirates", "flight_number": "EK927", "departure_time": "11:40", "arrival_time": "13:30", "duration": "3h 50m", "price": 255, "currency": "USD"},
+    {"origin": "Dubai", "destination": "Cairo", "airline": "flydubai", "flight_number": "FZ923", "departure_time": "22:30", "arrival_time": "00:20+1", "duration": "3h 50m", "price": 180, "currency": "USD"},
+
+    {"origin": "Cairo", "destination": "Tokyo", "airline": "EgyptAir", "flight_number": "MS964", "departure_time": "23:40", "arrival_time": "17:10+1", "duration": "11h 30m", "price": 890, "currency": "USD"},
+    {"origin": "Tokyo", "destination": "Cairo", "airline": "EgyptAir", "flight_number": "MS965", "departure_time": "20:10", "arrival_time": "05:10+1", "duration": "15h 00m", "price": 870, "currency": "USD"},
+    {"origin": "New York", "destination": "Tokyo", "airline": "ANA", "flight_number": "NH9", "departure_time": "13:25", "arrival_time": "16:30+1", "duration": "14h 05m", "price": 1150, "currency": "USD"},
+    {"origin": "Tokyo", "destination": "New York", "airline": "ANA", "flight_number": "NH10", "departure_time": "11:05", "arrival_time": "10:25", "duration": "12h 20m", "price": 1120, "currency": "USD"}
+  ],
+  "hotels": [
+    {"city": "Paris", "name": "Hotel du Marais Central", "location": "Le Marais, 3rd arr.", "rating": 4.3, "price_per_night": 165, "currency": "USD"},
+    {"city": "Paris", "name": "Saint-Germain Boutique Hotel", "location": "Saint-Germain-des-Pres, 6th arr.", "rating": 4.6, "price_per_night": 240, "currency": "USD"},
+    {"city": "Paris", "name": "Montmartre Budget Inn", "location": "Montmartre, 18th arr.", "rating": 3.8, "price_per_night": 95, "currency": "USD"},
+    {"city": "Paris", "name": "Gare de Lyon City Hotel", "location": "Gare de Lyon, 12th arr.", "rating": 4.0, "price_per_night": 120, "currency": "USD"},
+
+    {"city": "Rome", "name": "Trastevere Guesthouse", "location": "Trastevere", "rating": 4.4, "price_per_night": 110, "currency": "USD"},
+    {"city": "Rome", "name": "Hotel Colosseo View", "location": "Monti", "rating": 4.5, "price_per_night": 185, "currency": "USD"},
+    {"city": "Rome", "name": "Termini Budget Rooms", "location": "Termini", "rating": 3.7, "price_per_night": 75, "currency": "USD"},
+
+    {"city": "Dubai", "name": "Marina Waterfront Hotel", "location": "Dubai Marina", "rating": 4.5, "price_per_night": 210, "currency": "USD"},
+    {"city": "Dubai", "name": "Deira Creek Hotel", "location": "Deira", "rating": 3.9, "price_per_night": 85, "currency": "USD"},
+
+    {"city": "Tokyo", "name": "Shinjuku Business Hotel", "location": "Shinjuku", "rating": 4.1, "price_per_night": 130, "currency": "USD"},
+    {"city": "Tokyo", "name": "Asakusa Ryokan Stay", "location": "Asakusa", "rating": 4.6, "price_per_night": 190, "currency": "USD"}
+  ],
+  "activities": [
+    {"city": "Paris", "name": "Louvre Museum", "category": "museum", "description": "World's largest art museum, home of the Mona Lisa.", "duration_hours": 3, "price": 24, "currency": "USD"},
+    {"city": "Paris", "name": "Eiffel Tower summit", "category": "landmark", "description": "Lift access to the summit with city views.", "duration_hours": 2, "price": 38, "currency": "USD"},
+    {"city": "Paris", "name": "Seine river cruise", "category": "tour", "description": "One-hour sightseeing cruise past the main monuments.", "duration_hours": 1, "price": 18, "currency": "USD"},
+    {"city": "Paris", "name": "Musee d'Orsay", "category": "museum", "description": "Impressionist and post-impressionist masterpieces.", "duration_hours": 2.5, "price": 18, "currency": "USD"},
+    {"city": "Paris", "name": "Montmartre & Sacre-Coeur walk", "category": "walking", "description": "Self-guided walk through Montmartre to the basilica.", "duration_hours": 2.5, "price": 0, "currency": "USD"},
+    {"city": "Paris", "name": "Palace of Versailles", "category": "day trip", "description": "Palace, Hall of Mirrors and gardens (train not included).", "duration_hours": 5, "price": 23, "currency": "USD"},
+    {"city": "Paris", "name": "Arc de Triomphe rooftop", "category": "landmark", "description": "Rooftop terrace overlooking the Champs-Elysees.", "duration_hours": 1, "price": 17, "currency": "USD"},
+    {"city": "Paris", "name": "Le Marais food tour", "category": "food", "description": "Guided tasting tour of bakeries, cheese and falafel.", "duration_hours": 3, "price": 95, "currency": "USD"},
+    {"city": "Paris", "name": "Luxembourg Gardens", "category": "park", "description": "Stroll through the formal gardens and Medici fountain.", "duration_hours": 1.5, "price": 0, "currency": "USD"},
+
+    {"city": "Rome", "name": "Colosseum & Roman Forum", "category": "landmark", "description": "Combined ticket for the Colosseum, Forum and Palatine Hill.", "duration_hours": 3, "price": 20, "currency": "USD"},
+    {"city": "Rome", "name": "Vatican Museums & Sistine Chapel", "category": "museum", "description": "Papal art collections and Michelangelo's ceiling.", "duration_hours": 3.5, "price": 22, "currency": "USD"},
+    {"city": "Rome", "name": "Trevi Fountain & Pantheon walk", "category": "walking", "description": "Self-guided walk through the historic centre.", "duration_hours": 2, "price": 0, "currency": "USD"},
+    {"city": "Rome", "name": "Trastevere food tour", "category": "food", "description": "Evening tasting tour of Roman street food.", "duration_hours": 3, "price": 85, "currency": "USD"},
+
+    {"city": "Dubai", "name": "Burj Khalifa At the Top", "category": "landmark", "description": "Observation deck on levels 124-125.", "duration_hours": 1.5, "price": 45, "currency": "USD"},
+    {"city": "Dubai", "name": "Desert safari", "category": "tour", "description": "Dune drive, camel ride and BBQ dinner.", "duration_hours": 6, "price": 65, "currency": "USD"},
+    {"city": "Dubai", "name": "Al Fahidi & Creek abra ride", "category": "walking", "description": "Historic district walk and traditional boat crossing.", "duration_hours": 2, "price": 1, "currency": "USD"},
+
+    {"city": "Tokyo", "name": "Senso-ji Temple", "category": "landmark", "description": "Tokyo's oldest temple and Nakamise shopping street.", "duration_hours": 1.5, "price": 0, "currency": "USD"},
+    {"city": "Tokyo", "name": "teamLab Planets", "category": "museum", "description": "Immersive digital art museum.", "duration_hours": 2, "price": 26, "currency": "USD"},
+    {"city": "Tokyo", "name": "Tsukiji Outer Market food walk", "category": "food", "description": "Street food and seafood stalls.", "duration_hours": 2, "price": 30, "currency": "USD"},
+    {"city": "Tokyo", "name": "Shibuya Sky", "category": "landmark", "description": "Open-air rooftop observation deck.", "duration_hours": 1, "price": 15, "currency": "USD"}
+  ]
+}

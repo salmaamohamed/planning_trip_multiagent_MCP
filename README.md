@@ -290,19 +290,3 @@ Budget: 1,500.00 USD, remaining: 17.00 USD.
 When something fails, for example if the flight provider is down, the plan still gets produced:
 the Flight section reads *"Flight information is unavailable: Flight search failed: ..."*, the budget
 is marked `partial` with the flight cost excluded, and the Notes list the issue.
-
----
-
-## Relationship to the reference repository
-
-| Reference component | Here |
-|---|---|
-| `llm/OpenAI.py` | **Reused, adapted.** It became `app/llm.py`. The JSON-schema output, fence stripping and return-None-on-failure behaviour are kept; the IATA-specific regex salvage is removed. |
-| `config/Config.py` (pydantic-settings) | **Reused, adapted.** It became `app/config.py`, with the new `LLM_*` variables and safe defaults. |
-| `MCP_Severs/custom_weather_mcp_server.py` (FastMCP stdio pattern) | **Pattern reused** for `app/mcp/excel_server.py`. |
-| `MCP_Severs/mcp_client.py` (load one server at a time, isolate failures) | **Pattern reused** in `app/mcp/excel_client.py`, using the official `mcp` SDK directly. |
-| Per-agent Pydantic response schemas, catch-and-degrade node style, `logging` | **Kept as conventions** across all agents. |
-| `Travel_State.py` | **Rewritten** as `app/state.py`: a smaller state, with specialist data moved to the Blackboard. |
-| `graph.py` (sequential routing) | **Rewritten** as `app/graph.py` with parallel fan-out and fan-in. |
-| `prompts.py` (single file) | **Split** into `app/prompts/*`, one module per agent. |
-| Weather agent, guardrail/supervisor, human approval (HITL), itinerary agent, Postgres checkpointer, FastAPI/UI, AviationStack MCP | **Removed**, as required for the light version. The itinerary role is split between the Activity Agent (day scheduling) and the Output Agent. |
